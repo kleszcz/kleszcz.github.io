@@ -1,14 +1,16 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <link rel=stylesheet type="text/css" href="style.css">
     <title>Kleszcz ● {{ page.title }}</title>
   </head>
   <body>
   <h2>Navigation:</h2>
-  <ul>
+  <ul id="menu">
     {% for item in site.pages %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
     </li>
     {% endfor %}
   </ul>
-  <hr/>
+  <hr>
