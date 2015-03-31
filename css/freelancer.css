@@ -278,7 +278,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #1dbdd6;
     background: #fff;
 }
 
@@ -375,6 +375,23 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
+}
+
+.btn-success:hover, 
+.btn-success:focus, 
+.btn-success.focus, 
+.btn-success:active, 
+.btn-success.active, 
+.open>.dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #168fa2;
+  border-color: #168fa2;
+}
+
+.btn-success {
+  color: #ffffff;
+  background-color: #1dbdd6;
+  border-color: #1dbdd6;
 }
 
 .scroll-top {
