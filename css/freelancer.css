@@ -28,7 +28,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #1dbdd6;
 }
 
 h1,
@@ -218,6 +218,11 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
+   
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    
     /*background: rgba(24,188,156,.9);*/
     background: rgba(29,189,214,.9);
     -webkit-transition: all ease .5s;
