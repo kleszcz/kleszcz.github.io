@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*
+ * Colors
+ * Blue: #1dbdd6
+ * Turkus: #18bc9c
+ */
+ 
 body {
     overflow-x: hidden;
 }
@@ -22,7 +28,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #1dbdd6;
 }
 
 h1,
@@ -63,7 +69,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #1dbdd6;
 }
 
 hr.star-primary {
@@ -82,7 +88,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    /*background: #18bc9c;*/
+    background: #1dbdd6;
 }
 
 header .container {
@@ -181,7 +188,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #1dbdd6;
 }
 
 @media(max-width:767px) {
@@ -211,7 +218,13 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+   
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    
+    /*background: rgba(24,188,156,.9);*/
+    background: rgba(29,189,214,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -265,7 +278,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #1dbdd6;
     background: #fff;
 }
 
@@ -362,6 +375,23 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
+}
+
+.btn-success:hover, 
+.btn-success:focus, 
+.btn-success.focus, 
+.btn-success:active, 
+.btn-success.active, 
+.open>.dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #168fa2;
+  border-color: #168fa2;
+}
+
+.btn-success {
+  color: #ffffff;
+  background-color: #1dbdd6;
+  border-color: #1dbdd6;
 }
 
 .scroll-top {
