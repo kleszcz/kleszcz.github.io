@@ -6,6 +6,7 @@ img: games/bully.png
 alt: image-alt
 project-date: October 2013
 client: Softeyes Studios
+clienturl: http://www.softeyesstudios.com/
 category: Gameplay Programming & Project Managment
 description: <a href="https://itunes.apple.com/app/id581701990">iTunes</a>
 ---
