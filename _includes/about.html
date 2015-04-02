@@ -15,10 +15,12 @@
                     <p>Right now Unity 3D is my engine of choice but I'm also developing in C/C++ and many more. Run through my GitHub and You'll find C#, C++, Java and even a Verilog code (hardware implemented games - why not!).</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    {% assign github = site.social | where:"title","github" %}
-                    <a href="{{ github.url }}" class="btn btn-lg btn-outline">
-                        <i class="fa fa-github"></i> GitHub
+                    {% for network in site.social %}
+                    {% if network.title == "github" %}
+                    <a href="{{ network.url }}" class="btn btn-lg btn-outline">
+                        <i class="fa fa-github"></i> GitHubA
                     </a>
+                    {% endif %}
                 </div>
             </div>
         </div>
