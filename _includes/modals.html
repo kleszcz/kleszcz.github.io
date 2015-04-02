@@ -18,7 +18,13 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href={{ if post.client == null }}"#"{{ else }}"http://startbootstrap.com"{{ endif }}>{{ post.client }}</a>
+                                    <strong><a href={% if post.client == null %}
+                                     "#"
+                                     {% else %}
+                                     "http://startbootstrap.com"
+                                     {% endif %}>
+                                     {{ post.client }}
+                                     </a>
                                     </strong>
                                 </li>
                                 <li>Date:
