@@ -18,13 +18,12 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href={% if post.clienturl == null %}
-                                     "#"
-                                     {% else %}
-                                     {{ post.clienturl }}
-                                     {% endif %}>
-                                     {{ post.client }}
-                                     </a>
+                                    <strong>
+                                    {% if post.clienturl == null %}
+                                    <a href= {{ post.clienturl }}>{{ post.client }}</a>
+                                    {% else %}
+                                    {{ post.client }}
+                                    {% endif %}
                                     </strong>
                                 </li>
                                 <li>Date:
