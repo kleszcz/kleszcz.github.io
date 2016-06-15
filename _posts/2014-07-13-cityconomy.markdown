@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2014-07-13
 img: games/cityconomy.png
 alt: image-alt
 project-date: May 2015 - December 2015
